@@ -1,0 +1,113 @@
+* {
+  background-color: #2d4480;
+}
+
+.card {
+  background-color: white;
+  width: 288px;
+  height: 469px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  border-radius: 30px;
+  box-shadow: 5px 20px 50px rgba(0, 0, 0, 60);
+  display: flex;
+  flex-direction: column;
+}
+p {
+  background: none;
+  margin-bottom: 1px;
+  margin-top: 1px;
+}
+.basic {
+  position: absolute;
+  top: 50%; /* Position the top of the paragraph at 50% of the container's height */
+  left: 50%; /* Position the left of the paragraph at 50% of the container's width */
+  transform: translate(
+    -50%,
+    -50%
+  ); /*   the paragraph up and left by half of its own width and height */
+  margin-top: -175px; /* Adjust the margin-top to move the paragraph higher */
+  background: none;
+  color: #292929;
+  text-align: center;
+  font-size: 36px;
+  font-family: "Noto Sans Symbols";
+  line-height: 36px;
+  font-weight: 300;
+  margin-bottom: 30px;
+
+}
+button {
+  display: block;
+  position: absolute;
+  bottom: 35px;
+  left: 0;
+  right: 0;
+  color: #253868;
+  font-size: 16px;
+  line-height: 32.8px;
+  letter-spacing: 0.06em;
+  font-family: "Noto Sans Symbols", sans-serif;
+  font-weight: 600;
+  margin-left: auto;
+  margin-right: auto;
+  width: 181px;
+  height: 68px; /* Include the unit for the height value */
+  background-color: #ffbc0f;
+  border: none;
+  border-radius: 34px;
+  margin-top: 10px;
+}
+
+.feature {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin-left: 87px;
+  margin-top: -10px;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: "Noto Sans Symbols", sans-serif;
+  letter-spacing: 0.06em;
+  margin-bottom: -30px;
+  margin-top: 20px;
+}
+.free {
+  
+  background: none;
+  text-align: center;
+  font-size: 36px;
+  line-height: 36px;
+  font-family: "Noto Sans Symbols", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.13em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.forever {
+  background: none;
+  margin-left: 125px;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 400;
+  margin-top: -10px;
+  margin-bottom: 15px;
+  font-family: "Allan";
+  font-style: normal;
+  width: 94px;
+  height: 36px;
+  margin-top: 20x; /* Reduce the top margin to 20px */
+  margin-bottom: -10px;
+  color: #2D4480;
+}
+.line {
+    background: none;
+    text-align: center;
+    margin-top: 50px;
+}
