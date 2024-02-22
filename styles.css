@@ -21,6 +21,7 @@ p {
   background: none;
   margin-bottom: 1px;
   margin-top: 1px;
+  vertical-align: middle; 
 }
 .basic {
   position: absolute;
@@ -60,22 +61,23 @@ button {
   background-color: #ffbc0f;
   border: none;
   border-radius: 34px;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .feature {
   background-color: white;
   display: flex;
   flex-direction: column;
-  margin-left: 87px;
-  margin-top: -10px;
-  font-weight: 600;
+  margin-left: 70px;
+  vertical-align: middle;
+  font-weight: 650;
   font-size: 16px;
   font-family: "Noto Sans Symbols", sans-serif;
   letter-spacing: 0.06em;
-  margin-bottom: -30px;
-  margin-top: 20px;
+  margin-bottom: -20px;
+  margin-top: 50px;
 }
+
 .free {
   
   background: none;
@@ -85,29 +87,40 @@ button {
   font-family: "Noto Sans Symbols", sans-serif;
   font-weight: 700;
   letter-spacing: 0.13em;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 0px;
+  margin-bottom: 5px;
 }
 
 
 .forever {
   background: none;
-  margin-left: 125px;
+  margin-left: 130px;
   font-size: 36px;
   line-height: 36px;
   font-weight: 400;
-  margin-top: -10px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   font-family: "Allan";
   font-style: normal;
   width: 94px;
   height: 36px;
-  margin-top: 20x; /* Reduce the top margin to 20px */
-  margin-bottom: -10px;
   color: #2D4480;
 }
 .line {
     background: none;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 40px;
+    justify-content: center;
+    width: 188px;
+    margin-left: 47px;
+    margin-bottom: 5px;
+    font-weight: 800;
+}
+img {
+    height: 20px;
+    width: 20px;
+    background: none;
+    margin-right: 20px;
+    vertical-align: middle; /* Align images vertically in the middle */
+    margin-top: -3px; 
+    margin-left: -20px;
 }
